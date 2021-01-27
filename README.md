@@ -1,4 +1,4 @@
-# Module Project: React Side Effects and Styling - NASA APOD
+# Module Project: React Side Effects and Styling - NASA Astronomy Photo of the Day
 
 In it you will consume the NASA API to fetch the "Astronomy Photo Of The Day" or APOD. Once you fetch the data, you will build a few components that will render different pieces of data in your interface. You will also style your app using [Reactstrap](https://reactstrap.github.io/).
 
