@@ -1,0 +1,55 @@
+.boxes{
+   
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 30%;
+   
+    padding-bottom: 7rem;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+
+    box-shadow: 0 5px 10px rgba(154,160,185,.05),
+     0 15px 40px rgba(166,173,201,.2);
+    
+}
+
+
+.title{
+
+}
+
+
+.img{
+width: 100%;
+}
+
+
+.date{
+
+}
+
+
+.explanation{
+    width: 85%;
+    margin: auto;
+    text-align: justify;
+}
+
+
+.copyright-1{
+
+display: inline;
+padding: 10px;
+border-radius: 10px;
+border: 3px solid green;
+color: green;
+position: absolute;
+top: 90%;
+left: 45%;
+}
+
+
+
+
+
+

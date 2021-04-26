@@ -25,9 +25,11 @@ useEffect( () =>{
 
 
     return (
-        <div>
+        <div className="card">
+          
           
           <ImageCard movies={movies} /> 
+          
         </div>
     )
 }

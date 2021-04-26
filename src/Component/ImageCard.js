@@ -1,6 +1,8 @@
 
 
 import React,{useEffect, useState} from 'react';
+import "./style.css";
+
 
 function ImageCard( props) {
 
@@ -12,16 +14,31 @@ function ImageCard( props) {
 
 
     return (
-        <div>
-            <h1>{movies.title}</h1>
+        
+        <div className="boxes">
+           
+           
             
-            <img src={movies.url} alt="unknown yet"/>
             
-            <h1>{movies.date}</h1>
 
-            <h1>{movies.explanation}</h1>
 
-            <p> this is the copyright</p>
+
+            <div className="box-1">
+
+            <img className="img" src={movies.url} alt="unknown yet"/>
+            <h4 className="title">{movies.title}</h4>
+            
+            <h4 className="date">{movies.date}</h4>
+
+            <p className="explanation">{movies.explanation}</p>
+
+            <p className="copyright-1"> this is the copyright</p>
+
+            </div>
+
+          
+
+
 
         </div>
     )
